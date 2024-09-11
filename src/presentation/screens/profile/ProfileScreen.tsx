@@ -1,14 +1,11 @@
-import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-export const App = () => {
+export const ProfileScreen = () => {
   return (
-    <NavigationContainer>
-      <View style={styles.container}>
-        <Text>App</Text>
-      </View>
-    </NavigationContainer>
+    <View style={styles.container}>
+      <Text>ProfileScreen</Text>
+    </View>
   );
 };
 
